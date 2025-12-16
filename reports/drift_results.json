@@ -1,0 +1,130 @@
+{
+  "features": {
+    "Store": {
+      "ks_test": {
+        "statistic": 0.00230311909406475,
+        "p_value": 1.0,
+        "drift_detected": false
+      },
+      "mann_whitney_test": {
+        "statistic": 559390.0,
+        "p_value": 0.9809569817285103,
+        "drift_detected": false
+      },
+      "drift_detected": false,
+      "ref_mean": 22.99223200414293,
+      "ref_std": 12.99140575783849,
+      "prod_mean": 22.97754749568221,
+      "prod_std": 13.000313285913913
+    },
+    "Holiday_Flag": {
+      "ks_test": {
+        "statistic": 0.03111223211147275,
+        "p_value": 0.7671553012145313,
+        "drift_detected": false
+      },
+      "mann_whitney_test": {
+        "statistic": 541632.0,
+        "p_value": 0.0036136867664593865,
+        "drift_detected": true
+      },
+      "drift_detected": true,
+      "ref_mean": 0.04660797514241326,
+      "ref_std": 0.21085230721924816,
+      "prod_mean": 0.07772020725388601,
+      "prod_std": 0.26796229229630525
+    },
+    "Temperature": {
+      "ks_test": {
+        "statistic": 0.20549904342296269,
+        "p_value": 5.928435621075401e-17,
+        "drift_detected": true
+      },
+      "mann_whitney_test": {
+        "statistic": 420929.0,
+        "p_value": 1.740559775310487e-19,
+        "drift_detected": true
+      },
+      "drift_detected": true,
+      "ref_mean": 63.40967374417399,
+      "ref_std": 16.918810347428643,
+      "prod_mean": 70.97405872193437,
+      "prod_std": 11.908244139291687
+    },
+    "Fuel_Price": {
+      "ks_test": {
+        "statistic": 0.15632588553811147,
+        "p_value": 5.703840368868145e-10,
+        "drift_detected": true
+      },
+      "mann_whitney_test": {
+        "statistic": 472834.0,
+        "p_value": 1.749309476921249e-08,
+        "drift_detected": true
+      },
+      "drift_detected": true,
+      "ref_mean": 3.710400310719834,
+      "ref_std": 0.27645588012906236,
+      "prod_mean": 3.79685664939551,
+      "prod_std": 0.22709411910180002
+    },
+    "CPI": {
+      "ks_test": {
+        "statistic": 0.09930423442979691,
+        "p_value": 0.00027950725498453177,
+        "drift_detected": true
+      },
+      "mann_whitney_test": {
+        "statistic": 515451.0,
+        "p_value": 0.004388803477563615,
+        "drift_detected": true
+      },
+      "drift_detected": true,
+      "ref_mean": 175.5402283282755,
+      "ref_std": 40.679426868222,
+      "prod_mean": 176.00139553488773,
+      "prod_std": 40.96400212981516
+    },
+    "Unemployment": {
+      "ks_test": {
+        "statistic": 0.12176926056013646,
+        "p_value": 3.2375556833555865e-06,
+        "drift_detected": true
+      },
+      "mann_whitney_test": {
+        "statistic": 595942.0,
+        "p_value": 0.015786047980794346,
+        "drift_detected": true
+      },
+      "drift_detected": true,
+      "ref_mean": 7.346733816675298,
+      "ref_std": 1.6961183818882324,
+      "prod_mean": 7.151326424870467,
+      "prod_std": 1.6461969905423715
+    }
+  },
+  "target": {
+    "ks_test": {
+      "statistic": 0.023597355750955458,
+      "p_value": 0.9590931239632366,
+      "drift_detected": false
+    },
+    "mann_whitney_test": {
+      "statistic": 559596.5,
+      "p_value": 0.9701947924407999,
+      "drift_detected": false
+    },
+    "drift_detected": false,
+    "ref_mean": 1034022.1798032109,
+    "ref_std": 537091.9294074578,
+    "prod_mean": 1029700.3819343698,
+    "prod_std": 526705.9199227771,
+    "ref_median": 960746.04,
+    "prod_median": 964726.37
+  },
+  "summary": {
+    "total_features": 7,
+    "drifted_features": 5,
+    "drift_percentage": 83.33333333333334
+  }
+}

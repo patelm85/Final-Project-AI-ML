@@ -1,0 +1,88 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# UV
+.uv/
+uv.lock
+
+# Data directories (processed data will be generated)
+data/processed/
+data/raw/*.csv
+!data/raw/Walmart.csv
+
+# MLflow
+experiments/
+mlruns/
+mlflow/tracking_uri.txt
+mlflow/*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.cursor/
+
+# Environment variables
+.env
+.env.local
+
+# SSH Keys
+*.pem
+mlflow-key.pem
+
+# Jupyter Notebooks (should not be used but just in case)
+*.ipynb
+*.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Reports (generated)
+reports/*.html
+!reports/.gitkeep
+
+# Model artifacts (large files)
+models/*.pkl
+models/*.h5
+models/*.joblib
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+.env
+.env.*
